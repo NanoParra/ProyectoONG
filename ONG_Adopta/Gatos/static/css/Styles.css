@@ -1,0 +1,9 @@
+body{background-color: aqua;
+color: azure;
+width: 100vw;}
+
+
+.formulario{
+    display: flex;
+    
+}

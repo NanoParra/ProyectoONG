@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ayuda a Perros">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo-ONG</title>
+    <link rel="icon" href="{% static 'img/04fa98a1d0e08ffe2db4603cf76f02bf.png' %}">
+</head>
+<body>
+    <button><a href="{% url 'main' %}">volver atras</a></button>
+    <img src="{% static 'img/2.jpg' %}" alt="Eduardo" width="200px">
+    <ul>
+        <li>Nombre completo: Eduardo Antonio Soliz</li>
+        <li>Edad: 8 meses</li>
+        <li>Sexo: Masculino</li>
+        <li>Esterilizado: Sí</li>
+        <li>Nro Chips: 19996</li>
+    </ul>
+</body>
+</html>
